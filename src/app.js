@@ -1,19 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-/* Style */
-import '../css/style.scss';
-
-function Helloworld () {
-	return (
-			<div> Hola </div>
-
-	)
-
-}
-
-ReactDOM.render(<Helloworld /> ,document.querySelector("body"));
+console.log('hello world');
 
 
+var body = document.querySelector('body');
 
+var div = document.createElement('div');
 
+div.innerHTML = 'Hello World';
+
+body.append(div);
