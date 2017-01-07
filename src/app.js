@@ -1,10 +1,27 @@
 console.log('hello world');
 
+function Example() {
 
-var body = document.querySelector('body');
 
-var div = document.createElement('div');
+	var body = document.querySelector('body');
 
-div.innerHTML = 'Hello World';
+	var div = document.createElement('div');
 
-body.append(div);
+		div.innerHTML = `
+			<div>
+				Hello world
+			</div>
+
+			<div>
+				Configure everything in src/app.js
+
+			</div>
+
+
+		`;
+
+		body.append(div);
+
+}
+
+Example();
