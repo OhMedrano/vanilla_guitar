@@ -1,13 +1,14 @@
 
 
-    Pure JavaScript Boilerplate 
+               Pure JavaScript Boilerplate 
 
-        Powered by Webpack 
+                   Powered by Webpack 
 
 
 
 This is made for people who just want to code in vanilla js and not
 deal with all the bloated dependencies added on. 
+-------------------------------------------------------------------
 
 
     Features
@@ -19,9 +20,11 @@ deal with all the bloated dependencies added on.
                           style task runner
 
 
-
+------------------------------------------------------------------
 
     Getting Started
+
+
 
 Clone the repo 
 
