@@ -1,17 +1,18 @@
 module.exports = {
 	entry:{
 		js : "./src/app.js",
-		css: "./css/style.scss",
+		css: "./css/style.css",
+
 		
 	},
 
 	output: {
-/*		path: 'build',*/
+		/*path: 'build',*/
 
 		filename:'bundle.js'
 
 	},
-
+	
 	module: {
 		loaders:[
 			{
