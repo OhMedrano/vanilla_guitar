@@ -1,13 +1,36 @@
 
-This is a boilerplate for someone who wants to use 
-pure javascript with webpack as the task runner.
+
+  #Pure JavaScript Boilerplate 
+
+        Powered by Webpack 
 
 
-Simply git clone, and npm install. 
-Does have react in the package.json incase you want to mess around with that.
+
+This is made for people who just want to code in vanilla js and not
+deal with all the bloated dependencies added on. 
 
 
-"Npm start" to start webpack's dev server on localhost:8080 
+    #Features
+
+  - Bootstrap included
+  - React included (Not enabled)
+  - Babel powered - Can code in ES6 and newer JS.
+  - SCSS/SASS friendly. - Run "npm run watch" to start 
+                          style task runner
 
 
-CSS, SCSS, SASS available, just include them into your index or js file.
+
+    #Getting Started
+
+Clone the repo 
+
+Run the follwing commands
+    
+    Npm install
+
+    Npm run watch (This runs the scss/sass taskrunner)
+
+    Npm start
+
+Runs off localhost:8080 
+
