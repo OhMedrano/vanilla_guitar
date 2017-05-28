@@ -1,27 +1,27 @@
+import '../css/style.scss';
+
+
+
 console.log('hello world');
 
-function Example() {
+function makeElement(type,id,classes){
+	let newElement = document.createElement(type);
+		newElement.id = id;
+		newElement.class = classes;
+
+		return newElement;
+}
 
 
+
+
+function HomeScreen(){
 	var body = document.querySelector('body');
 
-	var div = document.createElement('div');
+	console.log(body);
 
-		div.innerHTML = `
-			<div>
-				Hello world
-			</div>
-
-			<div>
-				Configure everything in src/app.js
-
-			</div>
-
-
-		`;
-
-		body.append(div);
+	var basicElem = new makeElement('div','basic','col-xs-12 col-sm-12 col-md-12 col-lg-12 basics'); 
 
 }
 
-Example();
+HomeScreen();
