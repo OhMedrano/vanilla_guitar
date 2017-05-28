@@ -1,6 +1,6 @@
 
 
-  #Pure JavaScript Boilerplate 
+    Pure JavaScript Boilerplate 
 
         Powered by Webpack 
 
@@ -10,7 +10,7 @@ This is made for people who just want to code in vanilla js and not
 deal with all the bloated dependencies added on. 
 
 
-    #Features
+    Features
 
   - Bootstrap included
   - React included (Not enabled)
@@ -20,7 +20,8 @@ deal with all the bloated dependencies added on.
 
 
 
-    #Getting Started
+
+    Getting Started
 
 Clone the repo 
 
