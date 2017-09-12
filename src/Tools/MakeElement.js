@@ -8,7 +8,7 @@
                             Type: Takes string value, can create any element type ie "div", "span","img"
                             Name: Takes string value, sets element Id value
                             Gridsize: Takes Array value, [xs,sm,md,lg]. Used for bootstrap's grid system
-                            Custom: Takes string value, sets custom classes
+                            Custom: Takes string value, sets custom classes 
 
 */
 

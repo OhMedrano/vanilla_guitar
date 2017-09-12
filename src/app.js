@@ -4,8 +4,8 @@ import MakeElement from './Tools/MakeElement.js';
 
 console.log('hello world');
 
-
-
+/* Check out the Tools section to see how to create HTML elements */
+ 
 
 
 function HomeScreen(){
