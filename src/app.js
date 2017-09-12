@@ -1,16 +1,9 @@
 import '../css/style.scss';
+import GuitarBody from './Components/GuitarBody.js';
+import MakeElement from './Tools/MakeElement.js';
 
+console.log('hello world  ');
 
-
-console.log('hello world');
-
-function makeElement(type,id,classes){
-	let newElement = document.createElement(type);
-		newElement.id = id;
-		newElement.class = classes;
-
-		return newElement;
-}
 
 
 
@@ -20,8 +13,9 @@ function HomeScreen(){
 
 	console.log(body);
 
-	var basicElem = new makeElement('div','basic','col-xs-12 col-sm-12 col-md-12 col-lg-12 basics'); 
+	var basicElem = new MakeElement;
+      basicElem.createEle('div','basic',[0,12,12,12],'ayy'); 
 
 }
-
+GuitarBody.prototype.mainBody();
 HomeScreen();
