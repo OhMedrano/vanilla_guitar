@@ -5,7 +5,7 @@ function MakeElement(){
     let newElement = document.createElement(type);
         newElement.id = name;
     
-    let classStuff = [];
+    let classStuff = []; 
     
     gridsize.forEach(function(siz,i){
       let multiSize = ['xs','sm','md','lg'];
