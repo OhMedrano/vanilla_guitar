@@ -2,7 +2,7 @@ import '../css/style.scss';
 import GuitarBody from './Components/GuitarBody.js';
 import MakeElement from './Tools/MakeElement.js';
 
-console.log('hello world  ');
+console.log('hello world');
 
 
 
