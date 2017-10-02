@@ -28,12 +28,14 @@ function MakeElement(){
         classStuff.push(`col-${multiSize[i]}-${siz}`);
       }
     })
-
+    if(custom){
+       custom.forEach(function(cus){
+        classStuff.push(cus);
+      });
+    } 
     classStuff.forEach(function(clas){
       newElement.classList.add(clas);
     }); 
-
-    console.log(newElement);
     return newElement;
   }
 }
