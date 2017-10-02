@@ -1,0 +1,3 @@
+### Working on Nav bar
+
+    Currently Navbar is able to change the display value, need to work on refining it because it only seems to work on 1 div.... 
