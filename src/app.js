@@ -15,7 +15,7 @@ function HomeScreen(){
   var bodyContainer = basicElem.createEle('div','bodyContainer',[0,11,12,12],['ayy']); 
        
 
-  body.append(NavMenu(),GuitarBody.prototype.scaleBody(),GuitarBody.prototype.harmBody());
+  body.append(NavMenu(),GuitarBody.prototype.scaleBody(),GuitarBody.prototype.harmBody(),GuitarBody.prototype.homeBody());
   
 	console.log(NavMenu(),GuitarBody.prototype.scaleBody());
   

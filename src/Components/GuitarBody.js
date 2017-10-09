@@ -9,6 +9,13 @@ function GuitarBody(){
 }
 
 GuitarBody.prototype = {
+  homeBody : function() {
+    let body = newElement.createEle('div','home',[12,12,12,12],['guitarBodies','guitarContainers']);
+
+    body.innerHTML = '<div>This is home </div>';
+    return body
+  },
+
   scaleBody : function(){
     
     let body = newElement.createEle('div','visscale',[12,12,12,12],['guitarBodies', 'guitarContainers']);
